@@ -1,0 +1,186 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans.eot");
+  src: local("Open Sans"), local("OpenSans"), url("../fonts/OpenSans.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans.woff2") format("woff2"), url("../fonts/OpenSans.woff") format("woff"), url("../fonts/OpenSans.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open Sans Light';
+  src: url("../fonts/OpenSans-Light.eot");
+  src: local("Open Sans Light"), local("OpenSans-Light"), url("../fonts/OpenSans-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Light.woff2") format("woff2"), url("../fonts/OpenSans-Light.woff") format("woff"), url("../fonts/OpenSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open Sans Condensed Light';
+  src: url("../fonts/OpenSans-CondensedLight.eot");
+  src: local("Open Sans Condensed Light"), ocal("OpenSans-CondensedLight"), url("../fonts/OpenSans-CondensedLight.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-CondensedLight.woff2") format("woff2"), url("../fonts/OpenSans-CondensedLight.woff") format("woff"), url("../fonts/OpenSans-CondensedLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open Sans Condensed Bold';
+  src: url("../fonts/OpenSans-CondensedBold.eot");
+  src: local("Open Sans Condensed Bold"), local("OpenSans-CondensedBold"), url("../fonts/OpenSans-CondensedBold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-CondensedBold.woff2") format("woff2"), url("../fonts/OpenSans-CondensedBold.woff") format("woff"), url("../fonts/OpenSans-CondensedBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'OfficinaSansWinCTT';
+  src: url("../fonts/OfficinaSansWinC-Book.eot");
+  src: local("OfficinaSansWinCTT"), local("OfficinaSansWinC-Book"), url("../fonts/OfficinaSansWinC-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/OfficinaSansWinC-Book.woff2") format("woff2"), url("../fonts/OfficinaSansWinC-Book.woff") format("woff"), url("../fonts/OfficinaSansWinC-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Officina Serif';
+  src: url("../fonts/OfficinaSerifBold.eot");
+  src: local("Officina Serif Bold"), local("OfficinaSerifBold"), url("../fonts/OfficinaSerifBold.eot?#iefix") format("embedded-opentype"), url("../fonts/OfficinaSerifBold.woff2") format("woff2"), url("../fonts/OfficinaSerifBold.woff") format("woff"), url("../fonts/OfficinaSerifBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open Sans Bold';
+  src: url("../fonts/OpenSans-Bold.eot");
+  src: local("Open Sans Bold"), local("OpenSans-Bold"), url("../fonts/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Bold.woff2") format("woff2"), url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+body {
+  background-color: #fff; }
+
+a:hover {
+  text-decoration: none; }
+
+input:focus, input:active,
+textarea:focus,
+textarea:active,
+button:focus,
+button:active,
+a:focus,
+a:active {
+  text-decoration: none;
+  outline: 0; }
+
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto; }
+
+.header_container {
+  max-width: 1170px;
+  height: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.header_menu .list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px; }
+  .header_menu .list li {
+    margin: 0 11px; }
+    .header_menu .list li a {
+      display: block;
+      font-family: "Officina Serif";
+      font-size: 18px;
+      cursor: pointer;
+      color: #000;
+      text-decoration: none;
+      transition: 0.3s ease all; }
+
+.header_phone {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  max-height: 60px; }
+
+.header_phone_link {
+  margin-right: 10px; }
+  .header_phone_link a {
+    color: #000;
+    font-family: "Officina Serif";
+    font-size: 25px;
+    transition: 0.3s ease all; }
+    .header_phone_link a img {
+      margin-right: 5px; }
+
+.header_phone_btn {
+  text-align: right; }
+  .header_phone_btn .btn {
+    background-color: #f4a700;
+    color: #000;
+    font-size: 23px;
+    font-family: "Officina Serif";
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    padding-left: 18px;
+    padding-left: 18px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    transition: 0.3s ease all; }
+
+.start-screen {
+  position: relative;
+  overflow: hidden; }
+  .start-screen:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 30%;
+    background-color: #f4a700; }
+
+.start-screen_img {
+  position: absolute;
+  left: 40%;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+  width: 60%; }
+  .start-screen_img img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0; }
+
+.start-screen_content {
+  background-color: #f4a700;
+  margin-right: -15px;
+  border-radius: 0 200px 200px 0;
+  padding-top: 80px;
+  margin-left: -15px;
+  padding-right: 15px; }
+
+.start-screen_content_title .title {
+  margin: 0;
+  font-size: 54px;
+  font-family: "Officina Serif";
+  color: #202125; }
+
+@media screen and (min-width: 991px) {
+  .header_menu .list li:hover a {
+    color: #f4a700; }
+  .header_phone_link a:hover {
+    color: #f4a700; }
+  .header_phone_btn .btn:hover {
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.75); } }

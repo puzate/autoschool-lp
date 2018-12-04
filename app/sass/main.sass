@@ -1,0 +1,138 @@
+@import '_fonts.sass'
+@import '_vars.sass'
+body
+	background-color: $white
+a
+	&:hover
+		text-decoration: none
+input,
+textarea,
+button,
+a
+	&:focus,
+	&:active
+		text-decoration: none
+		outline: 0
+.wrapper
+	max-width: 1920px
+	margin: 0 auto
+.header_container
+	max-width: 1170px
+	height: 140px
+	margin-left: auto
+	margin-right: auto
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	justify-content: space-between
+	align-items: center
+.header_menu
+	.list
+		list-style-type: none
+		margin: 0
+		padding: 0
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		justify-content: space-between
+		padding-top: 15px
+		li
+			margin: 0 11px
+			a
+				display: block
+				font-family: $off-bold
+				font-size: 18px
+				cursor: pointer
+				color: $black
+				text-decoration: none
+				transition: 0.3s ease all
+.header_phone
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	align-items: center
+	max-height: 60px
+.header_phone_link
+	margin-right: 10px
+	a
+		color: $black
+		font-family: $off-bold
+		font-size: 25px
+		transition: 0.3s ease all
+		img
+			margin-right: 5px
+.header_phone_btn
+	text-align: right
+	.btn
+		background-color: $orange
+		color: $black
+		font-size: 23px
+		font-family: $off-bold
+		text-align: center
+		padding-top: 10px
+		padding-bottom: 10px
+		border-radius: 30px
+		padding-left: 18px
+		padding-left: 18px
+		box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75)
+		transition: 0.3s ease all
+.start-screen
+	position: relative
+	overflow: hidden
+	&:before
+		content: ''
+		display: block
+		position: absolute
+		top: 0
+		bottom: 0
+		left: 0
+		width: 30%
+		background-color: $orange
+.start-screen_img
+	position: absolute
+	left: 40%
+	top: 0
+	bottom: 0
+	overflow: hidden
+	width: 60%
+	img
+		position: absolute
+		top: 0
+		bottom: 0
+		right: 0
+.start-screen_content
+	background-color: $orange
+	margin-right: -15px
+	border-radius: 0 200px 200px 0
+	padding-top: 80px
+	margin-left: -15px
+	padding-right: 15px
+.start-screen_content_title
+	.title
+		margin: 0
+		font-size: 54px
+		font-family: $off-bold
+		color: $l-black
+@media screen and (min-width: 991px)
+	.header_menu
+		.list
+			li
+				&:hover
+					a
+						color: $orange
+	.header_phone_link
+		a
+			&:hover
+				color: $orange
+	.header_phone_btn
+		.btn
+			&:hover
+				box-shadow: 2px 2px 10px 1px rgba(0,0,0,0.75)
+@import '_hover.sass'
+@import '_media.sass'

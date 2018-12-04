@@ -1,0 +1,29 @@
+{
+  "name": "autoschool",
+  "version": "1.0.0",
+  "description": "LP for autschool",
+  "main": "index.js",
+  "dependencies": {
+    "npm": "^6.4.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "scripts": {
+    "test": "com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puzate/autoschool-lp.git"
+  },
+  "author": "Cyril Bazyliev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puzate/autoschool-lp/issues"
+  },
+  "homepage": "https://github.com/puzate/autoschool-lp#readme"
+}

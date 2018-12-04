@@ -1,0 +1,52 @@
+doctype html
+head
+	meta(charset="UTF-8")
+	meta(http-equiv="X-UA-Compatible" content="IE=edge")
+	meta(name="viewport" content="width=device-width, initial-scale=1")
+	link(rel="stylesheet", href="css/bootstrap.min.css")
+	link(rel="stylesheet", href="css/main.css")
+body
+	.wrapper
+		header
+			.header_container
+				.header_logo
+					a(href="#")
+						img.img-responsive(src="img/logo.png", alt="loading")
+				.header_menu
+					nav
+						ul.list
+							li
+								a(href="#") Автопарк
+							li
+								a(href="#") Тарифы
+							li
+								a(href="#") Отзывы
+							li
+								a(href="#") Сертификаты
+							li
+								a(href="#") Контакты
+				.header_phone
+					.header_phone_link
+						a(href="tel:8-888-888-8888")
+							img(src="img/phone.png", alt="loading")
+							| 8-888-888-8888
+					.header_phone_btn
+						button(type="button").btn Заказать звонок
+		main
+			section.start-screen
+				.start-screen_img
+					img(src="img/s-screen.png", alt="loading")
+				.container
+					.row
+						.col-md-6
+							.start-screen_content
+								.start-screen_content_title
+									h1.title Обучение в автошколе<br/>за 2,5 месяца<br/> с гарантией результата
+								.start-screen_content_info
+									ul.list
+										li
+										li
+									button(type="button").btn Рассчитать стоимость
+	script(src="js/jquery-3.3.1.min.js")
+	script(src="js/bootstrap.min.js")
+	script(src="js/common.js")
